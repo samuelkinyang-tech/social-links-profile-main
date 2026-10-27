@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+h3 {
+    color: hsl(75, 94%, 57%);
+}
+
+.card {
+    margin: auto;
+    width: 100%;
+}
+
+.card> .upper-card > .card-img > img {
+    display: flex;
+    width: 80px;
+    border-radius: 120px;
+    justify-self: center;
+    margin: auto;
+
+}
+.card> .upper-card > .card-h1 > h1 {
+    margin: 8px 8px;
+}
+
+.card> .upper-card > .card-h3 > h3 {
+    margin: 9px 8px;
+}
+.card> .upper-card > .card-p > p {
+    margin: 22px 10px;
+}
+
+.container {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    border-radius: 17px;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+    font-family: "Outfit", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    flex-wrap: wrap;
+    width: 21.7%;
+    height: 81.4vh;
+}
+
+.container>h1 {
+    font-size: 17px;
+}
+
+.upper-card {
+    margin: 10px 20px;
+}
+
+.link {
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding: 9px 1px;
+    margin: 10px 28px;
+}
+
+.attribution {
+    display: flex;
+    justify-self: center;
+    margin: 1rem;
+}
